@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PPScreenshotShare_Example' do
+  pod 'PPScreenshotShare', :path => '../'
+
+  target 'PPScreenshotShare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
