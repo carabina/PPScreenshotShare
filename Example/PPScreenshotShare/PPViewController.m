@@ -10,6 +10,8 @@
 
 @interface PPViewController ()
 
+@property (weak, nonatomic) IBOutlet UIWebView *web;
+
 @end
 
 @implementation PPViewController
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL *url = [NSURL URLWithString:@"https://github.com/vickyhidayat/PPScreenshotShare"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [_web loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
