@@ -2,8 +2,8 @@
 //  PPAppDelegate.m
 //  PPScreenshotShare
 //
-//  Created by Vicky on 09/20/2017.
-//  Copyright (c) 2017 Vicky. All rights reserved.
+//  Created by Vicky Hidayat on 09/20/2017.
+//  Copyright (c) 2017 Vicky Hidayat. All rights reserved.
 //
 
 #import "PPAppDelegate.h"

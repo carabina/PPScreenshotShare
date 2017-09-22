@@ -1,0 +1,22 @@
+{
+  "name": "PPScreenshotShare",
+  "version": "0.1.0",
+  "summary": "A short description of PPScreenshotShare.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vicky/PPScreenshotShare",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vicky": "vicky@pegipegi.com"
+  },
+  "source": {
+    "git": "https://github.com/Vicky/PPScreenshotShare.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PPScreenshotShare/Classes/**/*"
+}

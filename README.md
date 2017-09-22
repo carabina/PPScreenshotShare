@@ -1,6 +1,6 @@
 # PPScreenshotShare
 
-[![CI Status](http://img.shields.io/travis/Vicky/PPScreenshotShare.svg?style=flat)](https://travis-ci.org/Vicky/PPScreenshotShare)
+[![CI Status](http://img.shields.io/travis/vickyhidayat/PPScreenshotShare.svg?style=flat)](https://travis-ci.org/vickyhidayat/PPScreenshotShare)
 [![Version](https://img.shields.io/cocoapods/v/PPScreenshotShare.svg?style=flat)](http://cocoapods.org/pods/PPScreenshotShare)
 [![License](https://img.shields.io/cocoapods/l/PPScreenshotShare.svg?style=flat)](http://cocoapods.org/pods/PPScreenshotShare)
 [![Platform](https://img.shields.io/cocoapods/p/PPScreenshotShare.svg?style=flat)](http://cocoapods.org/pods/PPScreenshotShare)
@@ -22,7 +22,7 @@ pod 'PPScreenshotShare'
 
 ## Author
 
-Vicky, vicky@pegipegi.com
+Vicky Hidayat, vicky.hidayat@yahoo.com
 
 ## License
 
