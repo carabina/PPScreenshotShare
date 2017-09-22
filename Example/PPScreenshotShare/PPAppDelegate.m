@@ -7,13 +7,27 @@
 //
 
 #import "PPAppDelegate.h"
+#import "PPAppDelegate+Screenshot.h"
 
 @implementation PPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [self configureScreenshot];	//screenshot configurator
+    
+    [self performSelector:@selector(attract) withObject:nil afterDelay:10.0];	//demo
+    
     return YES;
+}
+
+- (void)attract
+{
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center postNotificationName:UIApplicationUserDidTakeScreenshotNotification object:nil];
+    
+    [self performSelector:@selector(attract) withObject:nil afterDelay:5.0];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
