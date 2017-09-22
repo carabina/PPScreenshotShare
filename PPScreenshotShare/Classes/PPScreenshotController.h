@@ -1,9 +1,9 @@
 //
 //  PPScreenshotController.h
-//  PegiPegi
+//  PPScreenshotShare
 //
-//  Created by Vicky Hidayat on 9/12/17.
-//  Copyright © 2017 VICKY HIDAYAT. All rights reserved.
+//  Created by Vicky Hidayat on 09/20/2017.
+//  Copyright (c) 2017 Vicky Hidayat. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSMutableDictionary (Screenshot)
 
-- (void)mergeWithDictionary:(NSDictionary *)dict;	//return self merged with dict
+- (void)mergeWithDictionary_:(NSDictionary *)dict;	//return self merged with dict
 
 @end
 

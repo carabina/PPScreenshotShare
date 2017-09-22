@@ -1,9 +1,9 @@
 //
 //  PPScreenshotController.m
-//  PegiPegi
+//  PPScreenshotShare
 //
-//  Created by Vicky Hidayat on 9/12/17.
-//  Copyright © 2017 VICKY HIDAYAT. All rights reserved.
+//  Created by Vicky Hidayat on 09/20/2017.
+//  Copyright (c) 2017 Vicky Hidayat. All rights reserved.
 //
 
 #import "PPScreenshotController.h"
@@ -131,7 +131,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
         BOOL mutable = [self isMutable];
         
         NSMutableDictionary *m = (mutable ? self : [self mutableCopy]);
-        [m mergeWithDictionary:dict];
+        [m mergeWithDictionary_:dict];
         
         return (mutable ? m : [m copy]);
     }
@@ -158,7 +158,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
 
 @implementation NSMutableDictionary (Screenshot)
 
-- (void)mergeWithDictionary:(NSDictionary *)dict
+- (void)mergeWithDictionary_:(NSDictionary *)dict
 {
     NSArray *keys = dict.allKeys;
     
@@ -172,7 +172,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
             BOOL mutable = [o1 isMutable];
             
             NSMutableDictionary *m = (mutable ? o1 : [o1 mutableCopy]);
-            [m mergeWithDictionary:o2];
+            [m mergeWithDictionary_:o2];
             
             [self setObject:(mutable ? m : [m copy]) forKey:key];	//preserve mutable instance
             
@@ -387,6 +387,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    if (!nibBundleOrNil) nibBundleOrNil = [NSBundle bundleForClass:[self class]];
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.modalTransitionStyle = kPPScreenshotModalTransitionStyle;	//defaults
@@ -967,7 +968,7 @@ static BOOL pp_screenshot_observer_flag = NO;	//observer serializer
     [self deobserve];	//only one
     
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-    pp_screenshot_observer_token = [center addObserverForName:@"UIApplicationUserDidTakeScreenshotNotification" object:nil queue:nil usingBlock:^(NSNotification  *_Nonnull note) {
+    pp_screenshot_observer_token = [center addObserverForName:UIApplicationUserDidTakeScreenshotNotification object:nil queue:nil usingBlock:^(NSNotification  *_Nonnull note) {
         
         if (pp_screenshot_observer_enabled) {	//status
             
