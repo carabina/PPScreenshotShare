@@ -1,12 +1,12 @@
 //
-//  PPScreenshotController.m
+//  PPScreenshotShareController.m
 //  PPScreenshotShare
 //
 //  Created by Vicky Hidayat on 09/20/2017.
 //  Copyright (c) 2017 Vicky Hidayat. All rights reserved.
 //
 
-#import "PPScreenshotController.h"
+#import "PPScreenshotShareController.h"
 
 #pragma mark - Keys
 
@@ -338,9 +338,9 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
 
 @end
 
-#pragma mark - PPScreenshotController
+#pragma mark - PPScreenshotShareController
 
-@interface PPScreenshotController () <UIGestureRecognizerDelegate> {
+@interface PPScreenshotShareController () <UIGestureRecognizerDelegate> {
     NSDictionary *_theme;	//cached theme
 }
 
@@ -362,9 +362,9 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
 
 @end
 
-#pragma mark - PPScreenshotController
+#pragma mark - PPScreenshotShareController
 
-@implementation PPScreenshotController
+@implementation PPScreenshotShareController
 
 #pragma mark - Initializations
 
@@ -870,7 +870,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
     NSDictionary *content = data[PPScreenshotKeyContent];
     UIImage *screenshot = content[PPScreenshotKeyScreenshot];
     
-    PPScreenshotController *c = pp_screenshot_observer_instance ?: [PPScreenshotController new];
+    PPScreenshotShareController *c = pp_screenshot_observer_instance ?: [PPScreenshotShareController new];
     pp_screenshot_observer_instance = c;	//cache expensive object
     
     if (!screenshot) {	//default
@@ -918,7 +918,7 @@ static NSString * const kPPScreenshotButtonActionDefaultText = @"LOREM IPSUM";
     }];
 }
 
-+ (void)dismiss:(BOOL)action controller:(PPScreenshotController *)controller
++ (void)dismiss:(BOOL)action controller:(PPScreenshotShareController *)controller
 {
     [controller interactive:NO];	//no more actions
     
@@ -1374,8 +1374,8 @@ static BOOL pp_screenshot_observer_enabled = YES;	//observer status
 
 #pragma mark Instance
 
-//static __weak PPScreenshotController *pp_screenshot_observer_instance = nil;	//instance
-static PPScreenshotController *pp_screenshot_observer_instance = nil;	//cached instance
+//static __weak PPScreenshotShareController *pp_screenshot_observer_instance = nil;	//instance
+static PPScreenshotShareController *pp_screenshot_observer_instance = nil;	//cached instance
 
 + (nullable instancetype)activeInstance
 {

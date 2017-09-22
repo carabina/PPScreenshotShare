@@ -6,7 +6,7 @@
 //  Copyright (c) 2017 Vicky Hidayat. All rights reserved.
 //
 
-#import <PPScreenshotShare/PPScreenshotController.h>
+#import <PPScreenshotShare/PPScreenshotShareController.h>
 
 #import "PPAppDelegate+Screenshot.h"
 
@@ -134,12 +134,12 @@
                       }
               };	//const
     
-    [PPScreenshotController setData:theme];	//customize screenshot
+    [PPScreenshotShareController setData:theme];	//customize screenshot
 }
 
 - (void)registerScreenshotShowHandler
 {
-    [PPScreenshotController setDidPresentHandler:^(PPScreenshotController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot shown
+    [PPScreenshotShareController setDidPresentHandler:^(PPScreenshotShareController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot shown
         
         [self screenshotShowHandler:userInfo];
         
@@ -148,7 +148,7 @@
 
 - (void)registerScreenshotDismissHandler
 {
-    [PPScreenshotController setDidDismissHandler:^(PPScreenshotController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot closed
+    [PPScreenshotShareController setDidDismissHandler:^(PPScreenshotShareController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot closed
     
         [self screenshotDismissHandler:userInfo];
         
@@ -157,7 +157,7 @@
 
 - (void)registerScreenshotActionHandler
 {
-    [PPScreenshotController setDidActionHandler:^(PPScreenshotController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot action
+    [PPScreenshotShareController setDidActionHandler:^(PPScreenshotShareController  *_Nonnull controller, NSDictionary  *_Nullable userInfo) {	//screenshot action
         
         [self screenshotActionHandler:userInfo];
         

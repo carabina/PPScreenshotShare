@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "PPScreenshotController.h"
+#import "PPScreenshotShareController.h"
 
 FOUNDATION_EXPORT double PPScreenshotShareVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPScreenshotShareVersionString[];

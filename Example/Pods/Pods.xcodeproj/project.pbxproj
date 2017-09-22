@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C36F981B64BC2F46A8281682750796 /* PPScreenshotShareController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5D1A14508187A872D9EA18A5D6FBD1 /* PPScreenshotShareController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F18069196E5377E3343773A2C85FE97 /* PPScreenshotShareController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C2B2D222B9FF4BBFEFA08B2F0E3CC760 /* PPScreenshotShareController.xib */; };
 		2BE47FD75604B587C7431BA96007AD89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
 		309CA4B492CB4A26A95A42B2E4689359 /* Pods-PPScreenshotShare_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF629809355DDE18D97921EA0F8FD42D /* Pods-PPScreenshotShare_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FF9821883E51798498327E3E2D5FDC6 /* PPScreenshotShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F844E43A7566C100ABD3B392CE0A5ACE /* PPScreenshotShare-dummy.m */; };
 		505B2E3DB3E8A7C45E079E5001C1537C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		52620BE7087209FBE0607619BFCA8507 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6A937CCAAD9302708AD5C927BCA8C0 /* ReplaceMe.m */; };
 		572158A093BC89A49EDCBEFF215FFFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		637B019BD695413518A3DD8A0DDAF051 /* PPScreenshotController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DE845EF7D64E4F0C00A1331CAFBF85 /* PPScreenshotController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		658E15E7513716D921A750B72444A9F9 /* Pods-PPScreenshotShare_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C457EF64D672E550ADAC6DA87E07F06 /* Pods-PPScreenshotShare_Example-dummy.m */; };
-		8153544F307791EC788574D3A6F3BB0A /* PPScreenshotController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D8801BF055676172C1D34149863A6795 /* PPScreenshotController.xib */; };
+		8707F115E79D4FC0530B9A32771AEBC0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B818AA437291C2E3D979C20C343AA8A0 /* ReplaceMe.m */; };
 		8803781A2D2FD125B707DFFF91A6C20A /* Pods-PPScreenshotShare_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E44C868F1F7AA54443E45969A7A0879B /* Pods-PPScreenshotShare_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A1162E91D2727FAB6AF80426DA84D59 /* PPScreenshotShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E56D6D25CE884DEA50A863138853D6D /* PPScreenshotShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4356BAF688FBEEF64C8FE6231C8FE33 /* PPScreenshotShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E56D6D25CE884DEA50A863138853D6D /* PPScreenshotShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2920927B511A71C34788EBE66B69F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		D3D92F962A41A21D757752157C32BF8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
-		EC690394670D3D00C4FA653B901DF2BD /* PPScreenshotController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1796DC7E331F9E4ABEB227682C30AF /* PPScreenshotController.m */; };
+		F0287C5CCF551B006C36FFC877C9ABBF /* PPScreenshotShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE714CF00E3C54E5074B53480A465D2 /* PPScreenshotShareController.m */; };
+		F48F5E60A10DCB15F1BC17A6EBCB99BF /* PPScreenshotShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F844E43A7566C100ABD3B392CE0A5ACE /* PPScreenshotShare-dummy.m */; };
 		FB57691D74F6EDA288FB864912248E19 /* Pods-PPScreenshotShare_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117B2EB318369D7D93F43E1061AEBF5 /* Pods-PPScreenshotShare_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,40 +37,40 @@
 /* Begin PBXFileReference section */
 		182310ACCD10C0B49C2D9F783900FC7D /* Pods-PPScreenshotShare_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPScreenshotShare_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		19327A7E89F4B7B4964D479771F05345 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B64F07831F5BFAE320AF6275E1534CB /* Pods_PPScreenshotShare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPScreenshotShare_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B64F07831F5BFAE320AF6275E1534CB /* Pods_PPScreenshotShare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPScreenshotShare_Example.framework; path = "Pods-PPScreenshotShare_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1971E6E9774EFE180968912FE00583 /* Pods-PPScreenshotShare_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPScreenshotShare_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2F47179893072F8EC0385C01DE350F5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3117B2EB318369D7D93F43E1061AEBF5 /* Pods-PPScreenshotShare_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPScreenshotShare_Tests-dummy.m"; sourceTree = "<group>"; };
 		3C53996F79D2B62092E61AEF124FA6F5 /* Pods-PPScreenshotShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPScreenshotShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3F3E4BDE7B3E38382AB4D8AC96544F10 /* Pods-PPScreenshotShare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPScreenshotShare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46EE97D8641299C939E5148365EC23D9 /* Pods-PPScreenshotShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPScreenshotShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4FDE96657646CD1B10EEF3D13C26B313 /* PPScreenshotShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PPScreenshotShare.modulemap; sourceTree = "<group>"; };
+		4FDE96657646CD1B10EEF3D13C26B313 /* PPScreenshotShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PPScreenshotShare.modulemap; sourceTree = "<group>"; };
 		57446D5B39BB1BBA47829C52D026E4FF /* Pods-PPScreenshotShare_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPScreenshotShare_Example-resources.sh"; sourceTree = "<group>"; };
 		5E56D6D25CE884DEA50A863138853D6D /* PPScreenshotShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPScreenshotShare-umbrella.h"; sourceTree = "<group>"; };
 		65BE7C7276ED5A25A55F6DDE1F27B681 /* Pods-PPScreenshotShare_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPScreenshotShare_Tests-resources.sh"; sourceTree = "<group>"; };
 		6B4BA9278E832DDD78C95E5481CEBF3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F28CD658C64CB92306854471E59F239 /* Pods-PPScreenshotShare_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PPScreenshotShare_Example.modulemap"; sourceTree = "<group>"; };
+		6F28CD658C64CB92306854471E59F239 /* Pods-PPScreenshotShare_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PPScreenshotShare_Example.modulemap"; sourceTree = "<group>"; };
 		733D4424C72F3A9715DAAF19E2CD90E3 /* Pods-PPScreenshotShare_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PPScreenshotShare_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8D1796DC7E331F9E4ABEB227682C30AF /* PPScreenshotController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPScreenshotController.m; sourceTree = "<group>"; };
-		92A6B1F7B228927090723E3A71A3FCE3 /* Pods-PPScreenshotShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PPScreenshotShare_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A5D1A14508187A872D9EA18A5D6FBD1 /* PPScreenshotShareController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPScreenshotShareController.h; sourceTree = "<group>"; };
+		92A6B1F7B228927090723E3A71A3FCE3 /* Pods-PPScreenshotShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PPScreenshotShare_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9BE714CF00E3C54E5074B53480A465D2 /* PPScreenshotShareController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPScreenshotShareController.m; sourceTree = "<group>"; };
 		9C457EF64D672E550ADAC6DA87E07F06 /* Pods-PPScreenshotShare_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PPScreenshotShare_Example-dummy.m"; sourceTree = "<group>"; };
 		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B0BB6E0A0B45851235C30C62E5B258FC /* PPScreenshotShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPScreenshotShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BB6E0A0B45851235C30C62E5B258FC /* PPScreenshotShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PPScreenshotShare.framework; path = PPScreenshotShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19CB59E5956967B75EA6FD75C737BBC /* PPScreenshotShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPScreenshotShare.xcconfig; sourceTree = "<group>"; };
+		B818AA437291C2E3D979C20C343AA8A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C2B2D222B9FF4BBFEFA08B2F0E3CC760 /* PPScreenshotShareController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PPScreenshotShareController.xib; sourceTree = "<group>"; };
 		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2F3A6CA91ED9BC4063AF3A8EF352F22 /* Pods-PPScreenshotShare_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PPScreenshotShare_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5BB7DADA22622CA01637CFC5A440BEE /* Pods-PPScreenshotShare_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PPScreenshotShare_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8801BF055676172C1D34149863A6795 /* PPScreenshotController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PPScreenshotController.xib; sourceTree = "<group>"; };
-		DC6A937CCAAD9302708AD5C927BCA8C0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		E2DE845EF7D64E4F0C00A1331CAFBF85 /* PPScreenshotController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPScreenshotController.h; sourceTree = "<group>"; };
 		E44C868F1F7AA54443E45969A7A0879B /* Pods-PPScreenshotShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPScreenshotShare_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E81F4FBD088A124BFAEB3DDAB218D0C9 /* Pods-PPScreenshotShare_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPScreenshotShare_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E89DCC13C79D53FDAAECE6892D7FCB9C /* PPScreenshotShare-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPScreenshotShare-prefix.pch"; sourceTree = "<group>"; };
 		F844E43A7566C100ABD3B392CE0A5ACE /* PPScreenshotShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPScreenshotShare-dummy.m"; sourceTree = "<group>"; };
 		F852F4EB982302567EC8E04C3D794DE7 /* Pods-PPScreenshotShare_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PPScreenshotShare_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FC0F42C92C749D8C5C8393638CCD8E13 /* Pods_PPScreenshotShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPScreenshotShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0F42C92C749D8C5C8393638CCD8E13 /* Pods_PPScreenshotShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PPScreenshotShare_Tests.framework; path = "Pods-PPScreenshotShare_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF629809355DDE18D97921EA0F8FD42D /* Pods-PPScreenshotShare_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PPScreenshotShare_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,14 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CB4BD7B47FC190C7320A94F4429FF30 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D8801BF055676172C1D34149863A6795 /* PPScreenshotController.xib */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,14 +112,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		183EB7B3DD14C79BC9AA0446EF026F5D /* Classes */ = {
+		17273D41F6ABABC5AB86F2DC5A00ADF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E2DE845EF7D64E4F0C00A1331CAFBF85 /* PPScreenshotController.h */,
-				8D1796DC7E331F9E4ABEB227682C30AF /* PPScreenshotController.m */,
-				DC6A937CCAAD9302708AD5C927BCA8C0 /* ReplaceMe.m */,
+				C2B2D222B9FF4BBFEFA08B2F0E3CC760 /* PPScreenshotShareController.xib */,
 			);
-			path = Classes;
+			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		235A72C3102E0C91595EAF3980D75092 /* Products */ = {
@@ -185,6 +176,17 @@
 			path = "Target Support Files/Pods-PPScreenshotShare_Tests";
 			sourceTree = "<group>";
 		};
+		7CCB168E750B7D91F73097E724959601 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D1A14508187A872D9EA18A5D6FBD1 /* PPScreenshotShareController.h */,
+				9BE714CF00E3C54E5074B53480A465D2 /* PPScreenshotShareController.m */,
+				B818AA437291C2E3D979C20C343AA8A0 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -217,8 +219,8 @@
 		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
 				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
 				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
 			);
 			name = iOS;
@@ -241,9 +243,10 @@
 		E1E774791259C3CAB76043A9758D9102 /* PPScreenshotShare */ = {
 			isa = PBXGroup;
 			children = (
-				183EB7B3DD14C79BC9AA0446EF026F5D /* Classes */,
-				0CB4BD7B47FC190C7320A94F4429FF30 /* Resources */,
+				7CCB168E750B7D91F73097E724959601 /* Classes */,
+				17273D41F6ABABC5AB86F2DC5A00ADF0 /* Resources */,
 			);
+			name = PPScreenshotShare;
 			path = PPScreenshotShare;
 			sourceTree = "<group>";
 		};
@@ -266,12 +269,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A87C0964D526D4358299DEAA8E4D6D0D /* Headers */ = {
+		A73A6FB351DD4B82F24BD1D9B941B0FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637B019BD695413518A3DD8A0DDAF051 /* PPScreenshotController.h in Headers */,
-				9A1162E91D2727FAB6AF80426DA84D59 /* PPScreenshotShare-umbrella.h in Headers */,
+				B4356BAF688FBEEF64C8FE6231C8FE33 /* PPScreenshotShare-umbrella.h in Headers */,
+				02C36F981B64BC2F46A8281682750796 /* PPScreenshotShareController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F9C1B726852727995C1848A60E9BE1 /* Build configuration list for PBXNativeTarget "PPScreenshotShare" */;
 			buildPhases = (
-				392EB1A72093E4F516A3702ECD513318 /* Sources */,
+				9AC5F7F704956FD4C4EFD261015743CC /* Sources */,
 				768A1BEF090F95A3269C86334EEB2408 /* Frameworks */,
-				A87C0964D526D4358299DEAA8E4D6D0D /* Headers */,
+				A73A6FB351DD4B82F24BD1D9B941B0FB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -367,22 +370,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		392EB1A72093E4F516A3702ECD513318 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC690394670D3D00C4FA653B901DF2BD /* PPScreenshotController.m in Sources */,
-				8153544F307791EC788574D3A6F3BB0A /* PPScreenshotController.xib in Sources */,
-				4FF9821883E51798498327E3E2D5FDC6 /* PPScreenshotShare-dummy.m in Sources */,
-				52620BE7087209FBE0607619BFCA8507 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4DB4834CC6D58FAA93D4DE6F06EBD038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB57691D74F6EDA288FB864912248E19 /* Pods-PPScreenshotShare_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5F7F704956FD4C4EFD261015743CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48F5E60A10DCB15F1BC17A6EBCB99BF /* PPScreenshotShare-dummy.m in Sources */,
+				F0287C5CCF551B006C36FFC877C9ABBF /* PPScreenshotShareController.m in Sources */,
+				1F18069196E5377E3343773A2C85FE97 /* PPScreenshotShareController.xib in Sources */,
+				8707F115E79D4FC0530B9A32771AEBC0 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

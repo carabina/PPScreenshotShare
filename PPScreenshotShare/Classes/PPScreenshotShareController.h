@@ -1,5 +1,5 @@
 //
-//  PPScreenshotController.h
+//  PPScreenshotShareController.h
 //  PPScreenshotShare
 //
 //  Created by Vicky Hidayat on 09/20/2017.
@@ -131,13 +131,13 @@ FOUNDATION_EXPORT PPScreenshotKey const PPScreenshotKeyGesture;	//gesture
 FOUNDATION_EXPORT PPScreenshotKey const PPScreenshotKeyTap;
 FOUNDATION_EXPORT PPScreenshotKey const PPScreenshotKeySwipe;
 
-#pragma mark - PPScreenshotController
+#pragma mark - PPScreenshotShareController
 
-@class PPScreenshotController;
+@class PPScreenshotShareController;
 
-typedef void (^PPScreenshotViewControllerLifeCycleHandler)(PPScreenshotController * controller, NSDictionary * __nullable userInfo);
+typedef void (^PPScreenshotViewControllerLifeCycleHandler)(PPScreenshotShareController * controller, NSDictionary * __nullable userInfo);
 
-@interface PPScreenshotController : UIViewController
+@interface PPScreenshotShareController : UIViewController
 
 @property (nullable, nonatomic, copy) NSDictionary *data;	//configuration information
 - (NSDictionary *)themeForType:(PPScreenshotThemeType)type;	//theme builder proxy
